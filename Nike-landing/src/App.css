@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppin", sans-serif;
+
+}
+
+.container {
+  margin-top: 1%;
+  padding-inline: 5%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links li :hover {
+  color: red;
+}
+
+.links {
+  gap: 10%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+button {
+  font: 1rem;
+  height: 25%;
+  padding-block: 1%;
+  width: 8%;
+  font-weight: 800;
+  background: red;
+  color: white;
+  border: 0.5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: black;
+}
+
+.middle {
+  padding-block: 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 50%;
+}
+
+.left button {
+  width: 16%;
+  height: 11%;
+}
+
+.left h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  font-weight: 800;
+}
+
+.grey-btn {
+  background-color: grey;
+  height: 11%;
+}
+
+.btns {
+  padding-top: 3%;
+}
+
+.left h5 {
+  width: 80%;
+  color: grey;
+  padding-top: 2%;
+  line-height: 1.5rem;
+}
+
+.right {
+  width: 50%;
+}
+
+.right img {
+  width: 80%;
+  margin-left: 15%;
+}
+
+.btm-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  color: grey;
+  padding-top: 3%;
+}
+
+.btm-cont img {
+  width: 5%;
+}
