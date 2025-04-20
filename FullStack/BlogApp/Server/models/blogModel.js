@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const blogSchema = new mongoose.Schema({
     title: {
-        type: string,
+        type: String,
     },
     category: {
         type: mongoose.Schema.Types.ObjectId,
@@ -11,10 +11,10 @@ const blogSchema = new mongoose.Schema({
         type:String,
     },
     thumbnail: {
-        type: string,
+        type: String,
     },
     user: {
-        type: mongoose.Schema.types.ObjectId,
+        type: mongoose.Schema.Types.ObjectId,
         refer:"users",
     },
 });
